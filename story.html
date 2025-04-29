@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Patata - Our Story</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">La Patata</div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="story.html">Our Story</a>
+            <a href="sustainability.html">Sustainability</a>
+            <a href="sources.html">Sources</a> <a href="index.html#visit" class="cta-link mobile-cta"><button class="cta reserve-button">Reserve</button></a>
+        </div>
+    </nav>
+
+    <header class="story-header" data-aos="fade-in">
+        <h2>Our Story</h2>
+        <p>From a simple idea rooted in passion to a plate full of purpose.</p>
+    </header>
+
+    <section id="story-content" class="story-content">
+        <div class="story-timeline-container">
+            <div class="timeline-line draw-line" data-aos="fade-in"></div>
+
+            <div class="story-point align-left">
+                <div class="story-graphic" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="story1.jpg" alt="Founder sketching ideas" loading="lazy">
+                </div>
+                <div class="story-text" data-aos="fade-right" data-aos-delay="200">
+                    <span class="timeline-milestone" data-year="2020">2020</span>
+                    <h3>The Seed of an Idea</h3>
+                    <p>La Patata began serving friends and friends in a small home kitchen. What started as a few meals quickly grew into a tradition, and word spread vastly of a new vegan restaraunt that offers community, comfort, and authenticity. </p>
+                </div>
+            </div>
+
+            <div class="story-point align-right">
+                <div class="story-graphic" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="story2.jpg" alt="Hands holding fresh local vegetables" loading="lazy">
+                </div>
+                <div class="story-text" data-aos="fade-left" data-aos-delay="200">
+                    <span class="timeline-milestone current-focus" data-year="Philosophy">Core</span>
+                    <h3>From Plant to Plate</h3>
+                    <p>Our commitment is simple: use the best ingredients, sourced ethically and locally. We believe in transparency, community, and meals that are delightful to the taste buds and kind to the earth. Every dish is 100% plant-based.</p>
+                </div>
+            </div>
+
+            <div class="story-point align-left">
+                <div class="story-graphic" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="story3.jpg" alt="Composting and recycling bins" loading="lazy">
+                </div>
+                <div class="story-text" data-aos="fade-right" data-aos-delay="200">
+                    <span class="timeline-milestone" data-year="2023">2023</span>
+                    <h3>Zero-Waste Certified</h3>
+                    <p>By Implementing rigorous composting, recycling, and waste-reduction practices, La Patata Achieved Zero-Waste Certification, validating our dedication to minimizing our environmental footprint.</p>
+                </div>
+            </div>
+
+            <div class="story-point align-right">
+                 <div class="story-graphic" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="story4.jpg" alt="People dining happily inside La Patata" loading="lazy">
+                </div>
+                 <div class="story-text" data-aos="fade-left" data-aos-delay="200">
+                    <span class="timeline-milestone current-focus" data-year="Community">Today</span>
+                    <h3>Growing Our Community</h3>
+                    <p>La Patata has become more than just a restaurant; it's a community. We cherish the connections made over shared meals and continue to host events and support local initiatives. Come join our warm and welcoming community!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 La Patata. This is a Fictional Restaurant.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      
+      AOS.init({
+          duration: 800, 
+          once: true     
+      });
+    </script>
+    <script src="scripts.js"></script>
+</body>
+</html>

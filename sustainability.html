@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Patata - Sustainability</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">La Patata</div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="story.html">Our Story</a>
+            <a href="sustainability.html">Sustainability</a>
+            <a href="references.html">References</a>
+            <a href="index.html#visit" class="cta-link mobile-cta"><button class="cta reserve-button">Reserve</button></a>
+        </div>
+    </nav>
+
+    <section id="sustainability-intro" class="sustainability">
+        <h2>Our Sustainability Promise</h2>
+        <p class="subtitle" data-aos="fade-up">We're committed to practices that cherish our planet, from the soil to your table.</p>
+        <div class="sustainability-stats">
+            <div class="stat" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-leaf"></i>
+                <h4>90% Local Suppliers</h4>
+                <p>We source the majority of our ingredients from local Virginia farms, minimizing our environmental impact and supporting our community.</p>
+            </div>
+            <div class="stat" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-recycle"></i>
+                <h4>Zero Food Waste</h4>
+                <p>We meticulously plan our menus to minimize waste. Leftover ingredients are creatively repurposed, and food scraps are composted.</p>
+            </div>
+            <div class="stat" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-box-open"></i>
+                <h4>Compostable Packaging</h4>
+                <p>We prioritize packaging that is compostable or recyclable, reducing our reliance on single-use plastics and minimizing our carbon footprint.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plant-to-plate-vertical" class="flowchart-section-vertical">
+        <h2>Plant-to-Plate Journey</h2>
+        <div class="flowchart-vertical-container">
+            <svg id="flowchart-svg-paths" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 1800" preserveAspectRatio="xMidYMin meet">
+                <path id="path-1-2" class="flowchart-path animate-path" data-anim-delay="0.2s" d="M 250 150 Q 250 250 550 400 V 500" />
+                <path id="path-2-3" class="flowchart-path animate-path" data-anim-delay="0.4s" d="M 350 450 Q 250 500 150 550 V 650" />
+                <path id="path-3-4" class="flowchart-path animate-path" data-anim-delay="0.6s" d="M 50 800 Q 400 900 400 900 V 1000" />
+                <path id="path-4-5" class="flowchart-path animate-path" data-anim-delay="0.8s" d="M 350 1050 Q 150 1250 150 1350" />
+                <path id="path-5-6" class="flowchart-path animate-path" data-anim-delay="1.0s" d="M 150 1450 Q 250 1500 350 1650 V 1650" />
+                <path id="path-6-7" class="flowchart-path animate-path" data-anim-delay="1.2s" d="M 350 1650 Q 650 1700 150 1850 V 2050" />
+            </svg>
+
+            <div class="flowchart-step-v step-1 align-center" data-step="1" data-aos="fade-up">
+                <div class="flowchart-icon"><i class="fas fa-store"></i></div>
+                <h4>1. Local Sourcing</h4>
+                <p>Partnering with Virginia farms for fresh, seasonal ingredients.</p>
+            </div>
+            <div class="flowchart-step-v step-2 align-right" data-step="2" data-aos="fade-up" data-aos-delay="100">
+                <div class="flowchart-icon"><i class="fas fa-seedling"></i></div>
+                <h4>2. Sustainable Farming</h4>
+                <p>Prioritizing organic methods and soil health via our suppliers.</p>
+            </div>
+            <div class="flowchart-step-v step-3 align-left" data-step="3" data-aos="fade-up" data-aos-delay="200">
+                 <div class="flowchart-icon"><i class="fas fa-truck-fast"></i></div>
+                <h4>3. Mindful Transport</h4>
+                <p>Short distances significantly reduce our carbon footprint.</p>
+            </div>
+            <div class="flowchart-step-v step-4 align-right" data-step="4" data-aos="fade-up" data-aos-delay="300">
+                <div class="flowchart-icon"><i class="fas fa-mortar-pestle"></i></div>
+                <h4>4. Low-Waste Prep</h4>
+                <p>Utilizing ingredients fully, from root to stem, minimizing waste.</p>
+            </div>
+            <div class="flowchart-step-v step-5 align-left" data-step="5" data-aos="fade-up" data-aos-delay="400">
+                 <div class="flowchart-icon"><i class="fas fa-utensils"></i></div>
+                <h4>5. Conscious Cooking</h4>
+                <p>Crafting delicious, thoughtful plant-based meals with care.</p>
+            </div>
+            <div class="flowchart-step-v step-6 align-right" data-step="6" data-aos="fade-up" data-aos-delay="500">
+                <div class="flowchart-icon"><i class="fas fa-concierge-bell"></i></div>
+                <h4>6. Plating & Serving</h4>
+                <p>Bringing the vibrant, sustainable dish directly to your table.</p>
+            </div>
+            <div class="flowchart-step-v step-7 align-center" data-step="7" data-aos="fade-up" data-aos-delay="600">
+                 <div class="flowchart-icon"><i class="fas fa-recycle"></i></div>
+                <h4>7. Closing the Loop</h4>
+                <p>Composting all scraps and using eco-friendly packaging.</p>
+            </div>
+        </div> </section>
+
+    <footer>
+        <p>&copy; 2025 La Patata. This is a Fictional Restaurant.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+    </body>
+</html>

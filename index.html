@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Patata - Vegan Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--animate on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-logo">La Patata</div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a> <a href="menu.html">Menu</a>
+            <a href="story.html">Our Story</a>
+            <a href="sustainability.html">Sustainability</a>
+            <a href="references.html">References</a>
+            <a href="index.html#visit" class="cta-link mobile-cta"><button class="cta reserve-button">Reserve</button></a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">La Patata</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Plant to Plate, Crafted with Love</p>
+            <div class="float" data-aos="fade-in" data-aos-delay="200">🌱</div>
+            </div>
+    </section>
+
+    <section id="menu" class="menu" data-aos="fade-in">
+        <h2>Our Popular Menu Items</h2>
+        <br>
+        <div class="menu-grid">
+            <div class="menu-card" data-aos="zoom-in">
+                <div class="card-front">
+                    <img src="dish1.jpg" alt="Crispy Baked Falafel" loading="lazy">
+                </div>
+                <div class="card-back">
+                    <h3>Crispy Baked Falafel</h3> <p>Soaked chickpeas, fresh herbs, garlic, cumin, coriander</p>
+                    <small>Baked to Crispy Perfection For a Light, Clean Bite</small>
+                </div>
+            </div>
+            <div class="menu-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card-front">
+                    <img src="dish2.jpg" alt="Heirloom Tomato Tart with Herbed Goat Cheese" loading="lazy">
+                </div>
+                <div class="card-back">
+                    <h3>Heirloom Tomato Tart with Herbed Goat Cheese</h3>
+                    <p>Heirloom tomatoes, puff pastry, goat cheese, fresh thyme, basil, honey drizzle.</p>
+                    <small>Full of Vibrant, Fresh Flavor</small>
+                </div>
+            </div>
+            <div class="menu-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card-front">
+                    <img src="dish3.jpg" alt="Mushroom Risotto" loading="lazy">
+                </div>
+                <div class="card-back">
+                    <h3>Wild Mushroom Risotto with Truffle Oil</h3>
+                    <p>Arborio rice, wild mushrooms (shiitake, oyster, cremini), shallots, white wine, vegetable broth, Parmesan cheese, truffle oil.</p>
+                    <small>Comfort Food Elevated</small>
+                </div>
+            </div>
+        </div>
+        <a href="menu.html" class="cta-link" data-aos="fade-up"><button class="cta">View Full Menu</button></a>
+    </section>
+
+    <section id="story" class="story" data-aos="fade-in">
+        <h2>Our Story</h2>
+        <div class="story-timeline">
+            <div class="timeline-item" data-aos="fade-up">Founded in 2020</div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">Zero-Waste Certified 2023</div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">100% Plant-Based</div>
+        </div>
+         <a href="story.html" class="cta-link" data-aos="fade-up" data-aos-delay="300"><button class="cta">Learn More</button></a>
+    </section>
+
+    <section id="sustainability" class="sustainability" data-aos="fade-in">
+        <h2>Sustainability Promise</h2>
+        <div class="sustainability-stats">
+            <div class="stat" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-leaf"></i>
+                <h4>90% Local Suppliers</h4>
+                <p>We source the majority of our ingredients from local Virginia farms</p>
+            </div>
+            <div class="stat" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-recycle"></i>
+                <h4>Zero Food Waste</h4>
+                <p>We meticulously plan our menus to minimize waste</p>
+            </div>
+            <div class="stat" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-box-open"></i>
+                <h4>Compostable Packaging</h4>
+                <p>We prioritize packaging that is compostable or recyclable</p>
+            </div>
+        </div>
+        <a href="sustainability.html" class="cta-link" data-aos="fade-up" data-aos-delay="400"><button class="cta">Our Practices</button></a>
+    </section>
+
+    <section id="gallery" class="gallery" data-aos="fade-in">
+        <h2>Glimpses of La Patata</h2>
+        <div class="gallery-grid">
+            <img src="gallery1.jpg" alt="Restaurant Interior" data-aos="zoom-in" loading="lazy">
+            <img src="gallery2.jpg" alt="Fresh Ingredients" data-aos="zoom-in" data-aos-delay="100" loading="lazy">
+            <img src="gallery3.jpg" alt="Chef Preparing Dishes" data-aos="zoom-in" data-aos-delay="200" loading="lazy">
+        </div>
+    </section>
+
+    <section id="visit" class="visit" data-aos="fade-in">
+        <h2>Visit Us & Reserve</h2>
+        <p data-aos="fade-up">We'd love to host you. Book your table below!</p>
+        <form class="visit-form">
+             <input type="text" placeholder="Name" required data-aos="fade-up" data-aos-delay="100">
+            <input type="email" placeholder="Email" required data-aos="fade-up" data-aos-delay="200">
+            <input type="date" placeholder="Date" required data-aos="fade-up" data-aos-delay="300">
+            <input type="time" placeholder="Time" required data-aos="fade-up" data-aos-delay="400">
+            <input type="number" placeholder="Party Size" min="1" max="10" required data-aos="fade-up" data-aos-delay="500">
+            <textarea placeholder="Any special requests?" rows="3" data-aos="fade-up" data-aos-delay="600"></textarea>
+            <button type="submit" class="cta" data-aos="fade-up" data-aos-delay="700">Request Reservation</button>
+        </form>
+    </section>
+
+    <section id="testimonials" class="testimonials" data-aos="fade-in">
+        <h2>What Our Customers Say</h2>
+        <br>
+        <div class="testimonial-grid">
+             <div class="testimonial-item" data-aos="fade-up">
+                <p>"La Patata is the most phenomenal vegan restaurant I have ever been to! The food will change your life.."</p>
+                <br>
+                <h4>- Ian Duval</h4>
+            </div>
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>"I love La Patata's focus on sustainability. It's great to know that my meal is both delicious AND eco-friendly."</p>
+                <br>
+                <h4>- Oliver Jerabek</h4>
+            </div>
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>"Anyone who loves plant based meals MUST visit. The dishes are healthy, fresh, and it's all local too!"</p>
+                <br>
+                <h4>- Sebastian Meija</h4>
+            </div>
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>"I've recently started living a vegan lifestyle, and La Patata instantly became my favorite restaurant. "</p>
+                <br>
+                <h4>- Jordan Carter</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-in">
+        <h2>Contact Us</h2>
+        <p data-aos="fade-up">If you have any questions or need assistance, feel free to reach out at:</p>
+        <ul data-aos="fade-up" data-aos-delay="100">
+            <li><i class="fas fa-envelope"></i> Email:  <a href="mailto:info@lapatata.com">‎ lapatata@lapatata.com</a></li> <!-- invisible character cuz space isnt working idk what im doing wrong -->
+            <li><i class="fas fa-phone"></i> Phone:  <a href="tel:7571234567">‎ 757-123-4567</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Address: 123 La Patata St, VA</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 La Patata. This is a Fictional Restaurant.</p>
+    </footer>
+
+    <a href="menu.html" id="idle-menu-prompt" class="idle-prompt-button">
+        <button class="cta">Check out our menu</button>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      
+      AOS.init({
+          
+          duration: 800, 
+          easing: 'ease-in-out', 
+          once: true, 
+          mirror: false, 
+          anchorPlacement: 'top-bottom', 
+      });
+    </script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
